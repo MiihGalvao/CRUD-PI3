@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cadastro</title>
+</head>
+<body>
+<h1> Cadastro de usuario </h1>
+
+<form action="Cadastro.jsp" method="POST">
+
+<label>ID : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label><input type="text" size="50" maxlength><br>
+
+<label>Nome: &nbsp; </label><input type="text" size="50" maxlength><br><br>
+<style =></style>
+
+<label>Sexo: </label>
+<label>Masculino: </label><input type="radio" name="Sexo" value="Masculino">
+<label>Feminino</label><input type="radio" name="Sexo" value="Feminino"><br><br>
+
+<label>E-mail:</label><input type="text" size="50" maxlength><br>
+<label>Senha: </label><input type="password" size="10" maxlength><br><br>
+
+<label>Id Filial: &nbsp; </label><input type="text" size="50" maxlength><br><br>
+
+<select>
+<option selected disabled>Cargo</option>
+<option>ADMINISTRATIVO</option>
+<option>TI</option>
+<option>SERVIÇOS</option>
+<option>FINANCEIRO</option>
+</select>
+
+<select><option selected disabled>Filial</option>
+<option>SAO PAULO</option>
+<option>JOINVILLE</option>
+<option>PARAIBA</option>
+<option>NAO LEMBRO</option></select>
+<br><br>
+
+
+
+<input type="submit" value="Salvar">
+<input type="reset" value="Limpar">
+<input type="button" value="Cancelar" onclick="alert('Tem certeza que deseja cancelar ?')
+<button>Cancela o cadastro...</button>
+
+<input type="file">
+</form>
+</body>
+</html>
